@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp files
+~$*.xlsx
+~$*.xls
+
+# General temporary files
+*.tmp
+*.bak
+*.log
