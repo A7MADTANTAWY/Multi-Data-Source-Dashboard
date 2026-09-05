@@ -14,7 +14,7 @@ This project contains three main report pages:
 
 ### 1. Sales Dashboard
 
-![Sales Dashboard](docs/screenshots/Sales%20Multi%20Source%20Data_page-0001.jpg)
+![Sales Dashboard](dashboard/screenshots/sales_dashboard.jpg)
 
 This page focuses on overall sales performance.
 
@@ -25,7 +25,7 @@ This page focuses on overall sales performance.
 
 ### 2. Product Dashboard
 
-![Product Dashboard](docs/screenshots/Sales%20Multi%20Source%20Data_page-0002.jpg)
+![Product Dashboard](dashboard/screenshots/product_dashboard.jpg)
 
 This page analyzes product performance and categories.
 
@@ -36,7 +36,7 @@ This page analyzes product performance and categories.
 
 ### 3. Customer Dashboard
 
-![Customer Dashboard](docs/screenshots/Sales%20Multi%20Source%20Data_page-0003.jpg)
+![Customer Dashboard](dashboard/screenshots/customer_dashboard.jpg)
 
 This page summarizes customer and sales representative performance.
 
@@ -47,16 +47,16 @@ This page summarizes customer and sales representative performance.
 
 ## Project Files
 
-- `dashboard/Sales Multi Source Data.pbix` - main Power BI report
+- `dashboard/multi_sales_dashboard.pbix` - main Power BI report
 - `data/` - source Excel databases
 - `assets/icons/` - dashboard navigation and UI icons
-- `docs/screenshots/` - report screenshots used in this README
+- `dashboard/screenshots/` - report screenshots used in this README
 
 ## Data Sources
 
-- `Customer Database.xlsx`
-- `Product Database.xlsx`
-- `Sales Database.xlsx`
+- `customer_database.xlsx`
+- `product_database.xlsx`
+- `sales_database.xlsx`
 
 ## Structure
 
@@ -66,7 +66,7 @@ Multi-Sales-Dashboard/
 │   └── icons/
 ├── data/
 ├── dashboard/
-├── docs/
+│   ├── multi_sales_dashboard.pbix
 │   └── screenshots/
 ├── README.md
 └── .gitignore
@@ -74,4 +74,4 @@ Multi-Sales-Dashboard/
 
 ## Notes
 
-The screenshots are stored locally in `docs/screenshots/`, so they will render directly on GitHub after pushing.
+The screenshots are stored locally in `dashboard/screenshots/`, so they will render directly on GitHub after pushing.
